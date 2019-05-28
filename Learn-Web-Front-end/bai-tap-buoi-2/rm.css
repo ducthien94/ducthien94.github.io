@@ -1,0 +1,17 @@
+body {
+	background-color: lightyellow;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+p {
+	text-align: justify;
+	font-size: 18px;
+}
+.center {
+	text-align: center;
+}
+a {
+	color: red;
+}
