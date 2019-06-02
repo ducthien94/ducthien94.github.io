@@ -1,0 +1,50 @@
+#wrap {
+	max-width: 1000px;
+	margin: auto;
+}
+#banner {
+	max-width: 100%;
+	max-height: 400px;
+}
+#menu {
+	background-color: #edf2f9;
+}
+#menu a {
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: yellow;
+}
+
+.box {
+	float: left;
+	width: 32.33%;
+	height: 100%;
+	margin:15px 15px 0 0;
+}
+.box img {
+	width: 100%;
+	height: auto;
+}
+.box img:hover {
+	border-radius: 50%;
+}
+#no3, #no6, #no9, #no12 {
+	float: right;
+	margin-right: 0;
+}
