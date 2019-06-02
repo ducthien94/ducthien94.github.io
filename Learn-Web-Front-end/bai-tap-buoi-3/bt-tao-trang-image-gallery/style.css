@@ -1,3 +1,5 @@
+
+
 #wrap {
 	max-width: 1000px;
 	margin: auto;
@@ -33,18 +35,12 @@ a:active {
 
 .box {
 	float: left;
-	width: 32.33%;
-	height: 100%;
-	margin:15px 15px 0 0;
+	width: 33.33333%;
+	margin: 15px 0 15px 0;
 }
-.box img {
-	width: 100%;
-	height: auto;
+img {
+	max-width: 100%;
 }
 .box img:hover {
 	border-radius: 50%;
-}
-#no3, #no6, #no9, #no12 {
-	float: right;
-	margin-right: 0;
 }
