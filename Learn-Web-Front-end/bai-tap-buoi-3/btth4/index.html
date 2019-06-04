@@ -5,18 +5,17 @@
 	<style type="text/css">
 		#div {
 			width: 100%;
-		}
-		.all {
-			margin-right: 15px;
-			float: left;
-			width: 32.57%;
-		}
+			display: grid;
+			grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+			grid-template-rows: auto auto auto;
+			grid-column-gap: 15px;  
+		} 
+		
 		.div1 {
 			background-color: red;
 			color: white;
 			height: 400px;
 			line-height: 400px;
-			/*width: 32.57%;*/
 			text-align: center;
 		}
 		.div2 {
@@ -24,7 +23,6 @@
 			color: white;
 			height: 400px;
 			line-height: 400px;
-			/*width: 32.57%;*/
 			text-align: center;
 		}
 		.div3 {
@@ -32,10 +30,7 @@
 			color: white;
 			height: 400px;
 			line-height: 400px;
-			/*width: 32.57%;*/
 			text-align: center;
-			float: right;
-			margin-right: 0;
 		}
 
 	</style>
