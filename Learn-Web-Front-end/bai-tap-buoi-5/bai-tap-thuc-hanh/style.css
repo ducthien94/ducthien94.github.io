@@ -46,51 +46,120 @@ h1 {
 	75% {transform: scale(1);}
 	100% {transform: scale(1);}
 }
+/*Bài 4*/
+#box {
+	width: 400px;
+	height: 200px;
+	background-color: #edeeef;
+	position: relative;
+	margin: auto;
+}
+h1 {
+	line-height: 50px;
+
+}
+.text {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+#box2 {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+#learning {
+	color: white;
+	background-color: green;
+	display: inline-block;
+	animation: learning 4s infinite;
+	position: absolute;
+	top: -21px;
+	right: 116px;
+}
+#coding {
+	color: white;
+	background-color: orange;
+	display: inline-block;
+	animation: coding 4s infinite;
+	position: absolute;
+	top: -21px;
+	right: 135px;
+}
+#teaching {
+	color: white;
+	background-color: purple;
+	display: inline-block;
+	animation: teaching 4s infinite;
+	position: absolute;
+	top: -21px;
+	right: 115px;
+}
+@keyframes learning {
+	0% {opacity: 1}
+	33% {opacity: 0;} 
+	66% {opacity: 0;} 
+	100% {opacity: 1;}
+	
+}
+@keyframes coding {
+	0% {opacity: 0;}
+	33% {opacity: 1;}
+	66% {opacity: 0;}
+	100% {opacity: 0;}
+	
+}
+@keyframes teaching {
+	0% {opacity: 0;}
+	33% {opacity: 0;}
+	66% {opacity: 1;}
+	100% {opacity: 0}
+	}
 
 /* Bài 5 */
 #menu ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 #menu ul li {
-  border: 1px solid #008000;
-  display: inline-block;
-  margin-right: 5px;
-  width: 130px;
-  height:25px;
-  line-height: 25px;
-  text-align: center;
-  font-weight: bold;
-  position: relative;
+	border: 1px solid #008000;
+	display: inline-block;
+	margin-right: 5px;
+	width: 130px;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
 }
 #menu li:last-child:hover {
-  background-color: #cbe8a9;
+	background-color: #cbe8a9;
 }
 #level2 {
-  display: none;
-  position: absolute;
-  right: -6px;
+	display: none;
+	position: absolute;
+	right: -6px;
 }
 #menu #level2 li {
-  border-top-style: hidden;
+	border-top-style: hidden;
 }
 #menu li:hover #level2 {
-  display: block;
+	display: block;
 }
 #level3 {
-  display: none;
-  position: absolute;
-  left: 90px;
-  top: -1px;
+	display: none;
+	position: absolute;
+	left: 90px;
+	top: -1px;
 }
 #level2 li:last-child:hover {
-  background-color: #fdbffd;
+	background-color: #fdbffd;
 }
 #level2 li:hover #level3 {
-  display: block;
+	display: block;
 }
 #level3 li:last-child:hover {
-  background-color: #a2d7de;
+	background-color: #a2d7de;
 }
 #menu #level2 #level3 li:first-child {
-  border-top: 1px solid #008000;
+	border-top: 1px solid #008000;
 }
