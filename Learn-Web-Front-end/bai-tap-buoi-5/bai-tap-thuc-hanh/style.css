@@ -1,5 +1,11 @@
+body {
+	max-width: 1000px;
+	margin: auto;
+}
 h1 {
 	text-align: center;
+	background-color: #4286f4; 
+	color: #ffffff;
 }
 /* Bài 1 */
 #login {
