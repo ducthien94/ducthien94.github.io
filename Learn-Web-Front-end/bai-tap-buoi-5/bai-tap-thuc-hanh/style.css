@@ -1,0 +1,96 @@
+h1 {
+	text-align: center;
+}
+/* Bài 1 */
+#login {
+	width: 200px;
+	height: 100px;
+	background-color:#4484b0;
+	color: white;
+	margin: auto;
+	text-align: center;
+	line-height: 100px;
+	font-family: Arial;
+	border-radius: 10px;
+	transition-duration: 1s;
+}
+#login:hover {
+	background-color:#23aa75;
+	border-radius: 50px;
+}
+/* Bài 2 */
+#pic {
+	columns: auto 3;
+}
+#pic img {
+	border: 1px solid green;
+	margin-bottom: 60px;
+	transition-duration: 1s;
+}
+#pic img:hover {
+	transform: scale(1.3);
+}
+/* Bài 3 */
+#image {text-align: center;}
+#image img {
+	transition-duration: 1s;
+}
+#image img:hover {
+	animation: move 2s infinite;
+
+}
+@keyframes move {
+	0% {transform: scale(1.2);}
+	25% {transform: scale(1);}
+	50% {transform:scale(1.2);}
+	75% {transform: scale(1);}
+	100% {transform: scale(1);}
+}
+
+/* Bài 5 */
+#menu ul {
+  list-style-type: none;
+}
+#menu ul li {
+  border: 1px solid #008000;
+  display: inline-block;
+  margin-right: 5px;
+  width: 130px;
+  height:25px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+#menu li:last-child:hover {
+  background-color: #cbe8a9;
+}
+#level2 {
+  display: none;
+  position: absolute;
+  right: -6px;
+}
+#menu #level2 li {
+  border-top-style: hidden;
+}
+#menu li:hover #level2 {
+  display: block;
+}
+#level3 {
+  display: none;
+  position: absolute;
+  left: 90px;
+  top: -1px;
+}
+#level2 li:last-child:hover {
+  background-color: #fdbffd;
+}
+#level2 li:hover #level3 {
+  display: block;
+}
+#level3 li:last-child:hover {
+  background-color: #a2d7de;
+}
+#menu #level2 #level3 li:first-child {
+  border-top: 1px solid #008000;
+}

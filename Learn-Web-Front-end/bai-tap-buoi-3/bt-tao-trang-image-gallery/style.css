@@ -40,6 +40,7 @@ a:active {
 }
 img {
 	max-width: 100%;
+	vertical-align: middle;
 }
 .box img:hover {
 	border-radius: 50%;
