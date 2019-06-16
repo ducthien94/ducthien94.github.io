@@ -1,8 +1,11 @@
 // Bài 1
+function sayHello() {
 document.write('Xin chào các bạn');
+}
+sayHello();
 
 //Bài 2
-function sayHello(str) {
+function sayHello1(str) {
 	document.write('Xin chào' + ' ' + str);
 }
 sayHello('cả lớp');
