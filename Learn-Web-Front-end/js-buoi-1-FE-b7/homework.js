@@ -8,7 +8,7 @@ sayHello();
 function sayHello1(str) {
 	document.write('Xin chào' + ' ' + str);
 }
-sayHello('cả lớp');
+sayHello1('cả lớp');
 
 //Bài 3
 function sayHello2(strr) {
