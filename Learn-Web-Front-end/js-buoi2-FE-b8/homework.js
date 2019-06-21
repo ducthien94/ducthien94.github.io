@@ -41,16 +41,16 @@ factorial(3);
 
 function check(obj) {
   if (obj.username == '' && obj.username.length > 20) {
-    console.log('Tên người dùng ko hợp lệ');
+   alert('Tên người dùng ko hợp lệ');
   }
   else if (obj.password.length < 6 && obj.password.length > 32) {
-    console.log;('Mật khẩu phải từ 6-32 kí tự')
+    alert('Mật khẩu phải từ 6-32 kí tự');
   }
   else if (obj.confirm !== obj.password) {
-    console.log('Mật khẩu không khớp');
+    alert('Mật khẩu không khớp');
   }
   else {
-    console.log('Thông tin hợp lệ');
+    alert('Thông tin hợp lệ');
     return true;  
     }
   return false;
