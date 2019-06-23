@@ -77,22 +77,22 @@ reserverString('techmaster');   //retsamhcet
 // ... vân vân cho tới khi đạt tới số 0.
 
 function song() {
-  var i = 99;
-  var j = 98;
+  var number_1 = 99;
+  var number_2 = 98;
   
-  while (i >= 0) {
-    while (i >= 0) {
-      document.write(`${i} bottles of beer on the wall`);
+  while (number_1 >= 0) {
+    while (number_2 >= 0) {
+      document.write(`${number_1} bottles of beer on the wall`);
       document.write(`<br>`);
-      document.write(`${i} bottles of beer`);
+      document.write(`${number_1} bottles of beer`);
       document.write(`<br>`);
       document.write(`Take one down, pass it around`);
       document.write(`<br>`);
-      document.write(`${j} bottles of beer on the wall`);
+      document.write(`${number_2} bottles of beer on the wall`);
       document.write(`<br>`);
       document.write(`<br>`);
-      i--;
-      j--;
+      number_1--;
+      number_2--;
     }
   }
 }
