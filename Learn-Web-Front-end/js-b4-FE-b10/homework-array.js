@@ -94,9 +94,11 @@ sum([2,4,6,8]);
 function filterWord(arr) {
 
 	var newArr = arr.filter(function(item) {
-		return item.charAt(0) == 'h' || item.charAt(0) == 'H';
-    // return item.toLowerCase().charAt(0) == 'h';
-    // return item.toUpperCase().charAt(0) == 'H';
+	
+	return item.charAt(0) == 'h' || item.charAt(0) == 'H';
+
+    //return item.toLowerCase().charAt(0) == 'h';   //Cách khác
+    // return item.toUpperCase().charAt(0) == 'H';  //Cách khác
 	});
 
 	return newArr;
