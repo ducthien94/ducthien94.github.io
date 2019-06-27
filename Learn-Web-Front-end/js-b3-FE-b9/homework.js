@@ -99,6 +99,19 @@ function song() {
 
 song();
 
+//Code bài giải
+function writeLyrics () {
+      for (var i = 99; i > 0 ; i--) {
+        document.write(`${i} bottles of beer on the wall <br>`);
+        document.write(`${i} bottles of beer <br>`);
+        document.write(`Take one down, pass it around <br>`);
+        document.write(`${i - 1} bottles of beer on the wall <br>`);
+        document.write(`<br>`);
+      }
+    }
+
+
+
 
 // Bài 4: Viết game Đoán Số như sau:
 
@@ -133,6 +146,10 @@ function game() {
 
     input = prompt('Mời bạn đoán số ngẫu nhiên từ 1-10');
 
+    if (input === null) {
+        return null;
+      }
+      
 
     if (input == randomNumber) {
       alert(`Chúc mừng bạn đã đoán đúng`);
@@ -157,6 +174,8 @@ function game() {
       alert(`Bạn đã thua cuộc. ${answer}`);
       break;
     }
+
+    
   }
 
 }
