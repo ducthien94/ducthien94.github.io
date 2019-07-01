@@ -451,6 +451,34 @@ function giaiPhuongTrinh(a, b) {
 }
 giaiPhuongTrinh(2,4);
 
+// Bài 2: Cho 3 số a, b và c. Viết hàm giải phương trình bậc 2 dạng ax² + bx + c = 0. 
+
+
+function giaiPhuongTrinhB2(a, b, c) {
+	if (a !== 0) {
+		let delta = b * b - (4 * a * c);
+
+		if (delta < 0) {
+			console.log('Phương trình vô nghiệm');
+		}
+
+		else if (delta == 0) {
+			console.log(`Phương trình có nghiệm kép là ${-(b / (2 * a))}`)
+		}
+
+		else {
+			console.log(`Phương trình có 2 nghiệm là ${(- b - Math.sqrt(delta)) /(2 * a)} và ${(- b + Math.sqrt(delta)) / (2 * a)}`)
+		}
+
+	}
+	else return false;
+}
+
+
+giaiPhuongTrinhB2(3, 5, 2); //Phương trình có 2 nghiệm là -1 và -0.6666666666666666
+giaiPhuongTrinhB2(2, 4, 2); //Phương trình có nghiệm kép là -1
+giaiPhuongTrinhB2(3, 5, 4); //Phương trình vô nghiệm
+
 
 
 
