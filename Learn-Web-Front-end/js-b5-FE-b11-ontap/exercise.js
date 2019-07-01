@@ -84,23 +84,37 @@ checkPrimeNumber(15); //false
 
  function sum(num) {
 
- 	let result = 0;
+ 	let result_1 = 0;
+ 	let result_2 = 0;
 
- 	if (checkPrimeNumber(num)) {     //Em sử dụng điều kiện của bài 3 luôn ạ.
 
- 		for (let i = 0; i <= num; i++) {
+ 	for (let i = 0; i <= num; i++) {
 
- 			if (checkPrimeNumber(i) == true) {
- 				result += i;
- 			}
-
+ 		if (checkPrimeNumber(i) == true) {
+ 			result_1 += i;
  		}
 
- 		return result;
+ 	}
 
- 	}   
+ 	return result_1;
 
- } 
+ 	if (num = !isNaN(num)) {
+ 		
+ 		for (let j = 0; j <= num; j++){
+ 			
+ 			if (checkPrimeNumber(j) == true ) {
+ 				result_2 += j;
+ 			}
+ 			
+ 		}
+ 		
+ 	}
+ 	
+ 	return result_2;
+ 	
+ }   
+
+
 
 
  sum(7); //17 (2 + 3 + 5 + 7)
