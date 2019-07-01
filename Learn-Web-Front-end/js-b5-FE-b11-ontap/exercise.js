@@ -99,17 +99,17 @@ checkPrimeNumber(15); //false
  	return result_1;
 
  	if (num = !isNaN(num)) {
- 		
+
  		for (let j = 0; j <= num; j++){
- 			
+
  			if (checkPrimeNumber(j) == true ) {
  				result_2 += j;
  			}
- 			
+
  		}
- 		
+
  	}
- 	
+
  	return result_2;
  	
  }   
@@ -118,6 +118,7 @@ checkPrimeNumber(15); //false
 
 
  sum(7); //17 (2 + 3 + 5 + 7)
+ sum(4); //5 (2 + 3)
 
 
 
