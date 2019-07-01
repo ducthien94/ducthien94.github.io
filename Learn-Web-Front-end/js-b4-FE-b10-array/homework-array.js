@@ -125,6 +125,7 @@ function checkTheDoor(num) {
     }
     
     i++;
+
   }
 
   return isClosed;    //false
