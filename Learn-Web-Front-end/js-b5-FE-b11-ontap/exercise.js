@@ -511,13 +511,13 @@ function tinhNgay(x, y, h) {
 
 	if (cd_1 && cd_2 && cd_3 && cd_4 && cd_5) {
 
-		let soNgay = h / (x - y);
-		console.log(`Số ngày ốc sên cần để đến miệng giếng là ${soNgay} ngày`);
+		let soNgay = (((h - x) / (x - y)) + 1).toFixed(1);
+		console.log(`Số ngày ốc sên cần để đến miệng giếng là ${Number(soNgay)} ngày`);
 	}
 	else return false;
 
 }
-tinhNgay(3,2,3);
+tinhNgay(4,1,9);
 
 
 // Bài 5: Cho 1 số nguyên, hãy viết hàm sắp xếp lại các chữ số trong số nguyên đó 
