@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework_11_DOM</title>
+</head>
+<body>
+	<p id="one">Paragraph 1: Ea aute et mollit laborum excepteur ut culpa officia dolor ut in eiusmod sunt. Lorem ipsum aliquip labore labore sint consequat dolore et culpa enim. Ea ut consectetur consectetur enim consequat ex ad pariatur proident elit in dolor cupidatat et do quis.</p>
+	<br>
+	<p id="two">Paragraph 2: Dolore eiusmod amet incididunt veniam aliqua sed anim et laborum. In pariatur dolore sint excepteur dolor in eu exercitation officia ea exercitation eiusmod aliquip proident. In nulla qui dolor in laborum officia nostrud duis non mollit pariatur voluptate qui.</p>
+	<br>
+	<p id="three">Paragraph 3: Id laborum commodo minim fugiat nisi ullamco ex mollit officia. Anim deserunt eiusmod sunt eu eu ut in occaecat esse reprehenderit. Tempor cillum velit nostrud qui fugiat deserunt irure incididunt culpa ad.</p>
+	<br>
+	<p id="four">Paragraph 4: Lorem ipsum eiusmod cillum elit enim laborum sint do irure nulla nisi laboris excepteur ullamco consequat irure consectetur reprehenderit occaecat. Lorem ipsum et culpa sed non anim dolor fugiat ea mollit. Velit cillum exercitation nulla eiusmod ut aute ut fugiat cillum aliqua cillum consequat cupidatat qui exercitation.</p>
+	<br>
+	<p id="five">Paragraph 5: Mollit ex voluptate ex excepteur duis qui dolor proident do proident proident incididunt. Ea anim aliquip mollit minim sit aliquip veniam aliquip. Non pariatur pariatur est consectetur cillum elit est non aliqua tempor proident amet.</p>
+	<br>
+	<p id="six">Paragraph 6: Irure adipisicing in commodo ut officia qui nulla duis et dolor. Magna laborum proident ex reprehenderit dolore deserunt consectetur elit irure minim veniam ut nulla dolore incididunt irure. Lorem ipsum fugiat mollit dolor nostrud nisi in cillum qui mollit culpa anim.</p>
+	<br>
+	<p id="seven">Paragraph 7: Mollit velit anim in aliquip in irure incididunt anim eu aliqua fugiat minim. Aliqua non consectetur exercitation dolore proident do elit excepteur eu labore aute pariatur occaecat velit velit aliquip id. Labore deserunt dolor deserunt pariatur qui sunt in dolore incididunt ad deserunt officia dolor.</p>
+</body>
+</html>
+
+
+<!-- Viết các function sau: -->
+
+<!-- Bài 1: function changeColor(): Đổi màu chữ của 3 đoạn văn đầu theo thứ tự xanh, vàng, đỏ. -->
+<script type="text/javascript">
+	
+	function changeColor() {
+
+		document.getElementsByTagName('p')[0].style.color = 'blue';
+		
+		document.getElementsByTagName('p')[1].style.color = 'yellow';
+		
+		document.getElementsByTagName('p')[2].style.color = 'red';
+
+	}
+
+	//changeColor();
+
+</script>
+
+
+<!-- Bài 2: function changeBgColor(color): Thay đổi màu nền của trang thành màu color. -->
+
+<script type="text/javascript">
+	
+	function changeBgColor(color) {
+
+		document.querySelector('body').style.backgroundColor = `${color}`;
+
+	}
+
+//changeBgColor('lightblue');
+
+</script>
+
+<!-- Bài 3: function copyContent(paragraph1, paragraph2): Thay đổi nội dung của đoạn văn paragraph1 thành giống nội dung của đoạn văn paragraph2 (tham số truyền vào có thể là id của 2 đoạn văn). -->
+
+<script type="text/javascript">
+	
+	function copyContent(paragraph1, paragraph2) {
+
+		let getText = document.getElementById(paragraph2).firstChild.nodeValue;
+		
+		let setText = document.getElementById(paragraph1).firstChild.nodeValue = getText;
+
+	}
+
+//copyContent('one', 'two');
+
+</script>
+
+<!-- Bài 4: function changeFontSize(x): Thay đổi kích thước font chữ của cả 7 đoạn văn thành x pixels (x là một số nguyên). -->
+
+<script type="text/javascript">
+	
+	function checkNumber(x) {
+
+		let isNumber = !isNaN(x);
+
+		let isInteger = Number.isInteger(x);
+
+		if (isNumber && isInteger && x >= 1) return true;
+		else return false;
+
+	}
+
+	
+	function  changeFontSize(x) {
+
+		if(checkNumber(x)) {
+
+			let fontSize = document.getElementsByTagName('p');
+
+			for (let i = 0; i < fontSize.length; i++) {
+
+				fontSize[i].style.fontSize = `${x}px`;
+
+			}
+		}
+		else return false;
+
+	} 
+	
+//changeFontSize(20);
+
+</script>
+
+
+<!-- Bài 5: function increaseFontSize(paragraph): Tăng kích thước font chữ của đoạn văn mong muốn (paragraph, tham số truyền vào có thể là id đoạn văn) lên 1 pixel so với kích thước hiện tại, font size lớn nhất được phép là 30 pixels. -->
+
+<script type="text/javascript">
+	
+	function increaseFontSize(paragraph) {
+
+		let maxFontSize = 30;
+
+		let pgr = document.getElementById(paragraph);
+		
+		let newFontSize;
+
+		let defaultFontSize;
+
+		if(pgr.style.fontSize) {
+
+			defaultFontSize = parseInt(pgr.style.fontSize);
+		}
+
+		else {defaultFontSize = 16;}
+
+		if(defaultFontSize < maxFontSize) {
+
+			newFontSize = defaultFontSize + 1;
+
+		}
+
+		pgr.style.fontSize = `${newFontSize}px`;
+
+	}
+
+
+//increaseFontSize('one');
+
+</script>
+
+
+
+
+<!-- Bài 6: function decreaseFontSize(paragraph): Giảm kích thước font chữ của đoạn văn mong muốn (paragraph, tham số truyền vào có thể là id đoạn văn) xuống 1 pixels so với kích thước hiện tại, font size nhỏ nhất được phép là 10 pixels. -->
+
+
+<script type="text/javascript">
+	
+function decreaseFontSize(paragraph) {
+
+		let minFontSize = 10;
+
+		let pgr = document.getElementById(paragraph);
+		
+		let newFontSize;
+
+		let defaultFontSize;
+
+		if(pgr.style.fontSize) {
+
+			defaultFontSize = parseInt(pgr.style.fontSize);
+		}
+
+		else {defaultFontSize = 16;}
+
+		if(defaultFontSize > minFontSize) {
+
+			newFontSize = defaultFontSize - 1;
+
+		}
+
+		pgr.style.fontSize = `${newFontSize}px`;
+
+	}
+	
+
+//decreaseFontSize('two');	
+
+</script>
