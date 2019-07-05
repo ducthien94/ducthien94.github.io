@@ -120,14 +120,9 @@
 		
 		let newFontSize;
 
-		let defaultFontSize;
+		let defaultFontSize = parseInt(getComputedStyle(pgr).fontSize);
 
-		if(pgr.style.fontSize) {
-
-			defaultFontSize = parseInt(pgr.style.fontSize);
-		}
-
-		else {defaultFontSize = 16;}
+		
 
 		if(defaultFontSize < maxFontSize) {
 
@@ -138,6 +133,8 @@
 		pgr.style.fontSize = `${newFontSize}px`;
 
 	}
+
+
 
 
 //increaseFontSize('one');
@@ -160,14 +157,7 @@ function decreaseFontSize(paragraph) {
 		
 		let newFontSize;
 
-		let defaultFontSize;
-
-		if(pgr.style.fontSize) {
-
-			defaultFontSize = parseInt(pgr.style.fontSize);
-		}
-
-		else {defaultFontSize = 16;}
+		let defaultFontSize = parseInt(getComputedStyle(pgr).fontSize);
 
 		if(defaultFontSize > minFontSize) {
 
