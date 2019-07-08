@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Máy tính online</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class = "box">
+
+		<input id ="screen"/>
+
+		<div class="keyboard">
+
+			<div class="item1 item">
+				<div class = "percent btn"><button onclick="percent()">&#37;</button></div>
+				<div class = "sqrt btn"><button onclick="sqrt()">&radic;x</button></div>
+				<div class = "del btn"><button onclick="del()">&larr;</button></div>
+				<div class = "ac btn"><button onclick="ac()">AC</button></div>				
+			</div>
+
+			<div class="item2 item">
+				<div class = "square btn"><button onclick="square()">x&sup2;</button></div>
+				<div class = "ftr btn"><button>x&#33;</button></div>
+				<div class = "pi btn"><button onclick="addIndex('3.141592653589793')">&pi;</button></div>
+				<div class = "dvs btn"><button onclick="addIndex('/')">/</button></div>
+			</div>
+
+			<div class="item3 item">
+				<div class = "seven btn"><button onclick="addIndex('7')">7</button></div>
+				<div class = "eight btn"><button onclick="addIndex('8')">8</button></div>
+				<div class = "nine btn"><button onclick="addIndex('9')">9</button></div>
+				<div class = "multiply btn"><button onclick="addIndex('*')">*</button></div>
+			</div>
+
+			<div class="item4 item">
+				<div class = "four btn"><button onclick="addIndex('4')">4</button></div>
+				<div class = "five btn"><button onclick="addIndex('5')">5</button></div>
+				<div class = "six btn"><button onclick="addIndex('6')">6</button></div>
+				<div class = "minus btn"><button onclick="addIndex('-')">-</button></div>
+			</div>
+
+			<div class="item5 item">
+				<div class = "one btn"><button onclick="addIndex('1')">1</button></div>
+				<div class = "two btn"><button onclick="addIndex('2')">2</button></div>
+				<div class = "three btn"><button onclick="addIndex('3')">3</button></div>
+				<div class = "plus btn"><button onclick="addIndex('+')">+</button></div>
+			</div>
+
+			<div class="item6 item">
+				
+				<div class = "zero btn"><button onclick="addIndex('.')">.</button></div>
+				<div class = "dot btn"><button onclick="addIndex('0')">0</button></div>
+				<div class = "equal btn"><button onclick="result()">=</button></div>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="index.js"></script>
+
+</body>
+</html>

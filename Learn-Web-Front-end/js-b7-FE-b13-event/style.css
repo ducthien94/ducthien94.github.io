@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('http://hinhnenpowerpointdep.com/uploads/images/23-hinh-nen-mau-sang-bat-mat-va-tuyet-dep-1487822704-2.jpg');
+	background-size: cover;
+}
+
+.box {
+	width: 280px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	margin: calc((100vh - 400px)/2) auto;
+	border: 3px double #999;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#screen {
+	width: 100%;
+	height: 20%;
+	background-color: #f2f2f2;
+	margin-bottom: 1px;
+	border: 1px solid #999;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 25px;
+    text-align: right;
+    color: #333;
+/*    font-weight: bold;*/
+}
+
+.keyboard {
+	width: 100%;
+	height: 80%;
+}
+
+.item {
+	width: 100%;
+	height: calc(100% / 6);
+	text-align: center;
+	display: flex;
+}
+
+/*.item1, .item2, .item3, .item4, .item5, .item6 {
+	display: flex;
+}*/
+.item6 .equal {
+	flex: 2;
+}
+
+.btn {
+	flex: 1;
+}
+
+button {
+	height: 100%;
+	font-weight: bold;
+	font-size: 18px;
+	width: 100%;
+	color: white;
+	background-color: #777;
+	border-radius: 5px;
+}
+.ac button, .del button {
+	background-color: #ff1a1a;
+	color: white;
+}
+.dvs button, .multiply button, .minus button, .plus button, .equal button {
+	background-color: #ff9900;
+	color: white;
+} 
