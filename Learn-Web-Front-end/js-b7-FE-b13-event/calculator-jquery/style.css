@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: url('http://hinhnenpowerpointdep.com/uploads/images/23-hinh-nen-mau-sang-bat-mat-va-tuyet-dep-1487822704-2.jpg');
+	background-image: url('https://msmobile.com.vn/upload_images/images/tong-hop-21-hinh-nen-powerpoint-ve-chu-de-toan-hoc-1489912049-3.jpg');
 	background-size: cover;
 }
 
@@ -23,20 +23,22 @@ body {
 #screen {
 	width: 100%;
 	height: 20%;
-	background-color: #f2f2f2;
+	background-color: #f3f3f3;
 	margin-bottom: 1px;
 	border: 1px solid #999;
-	border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     font-size: 25px;
     text-align: right;
     color: #333;
+   
 /*    font-weight: bold;*/
 }
 
 .keyboard {
 	width: 100%;
 	height: 80%;
+	background-color: lightblue;
 }
 
 .item {
@@ -53,8 +55,9 @@ body {
 	flex: 2;
 }
 
-.btn {
+.btn, .btn_op {
 	flex: 1;
+	margin: 3px;
 }
 
 button {
@@ -64,7 +67,8 @@ button {
 	width: 100%;
 	color: white;
 	background-color: #777;
-	border-radius: 5px;
+	border-radius: 10px;
+	outline: none;
 }
 .ac button, .del button {
 	background-color: #ff1a1a;
