@@ -86,7 +86,7 @@ function square() {
 
 function factorial() {
 	num = screen.value;
-	let result = 1;
+	let result = 'NaN';
 
 	if (num >= 0)  {
 		if (num == 0 || num == 1) {

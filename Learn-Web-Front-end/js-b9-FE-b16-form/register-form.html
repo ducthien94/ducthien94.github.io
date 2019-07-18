@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<form>
+		<fieldset>
+
+			<legend>ĐĂNG KÝ THÀNH VIÊN</legend>
+
+			<input type="text" name="username" id="name" placeholder="Họ tên">  <span class="error"></span> <br>
+			<input type="text" name="email" id="email" placeholder="Email"> <span class="error"></span> <br>
+			<input type="text" name="phone" id="phone" placeholder="Phone"> <span class="error"></span><br>
+			<input type="password" name="password" id="pass" placeholder="Mật khẩu"> <span class="error"></span> <br> 
+			 <input type="password" name="conf-password" id="conf-pass" placeholder="Nhập lại mật khẩu"> <span class="error"></span> <br>
+			
+			<p>Ngày sinh :</p>
+			<input type="date" name="date" id="date"> <span class="error"></span>
+
+			
+				<p>Giới tính :</p>
+				<input type="radio" name="gender" id="male" value="male"><label for="male">Nam</label>
+				<input type="radio" name="gender" id="female" value="female"><label for="female" id="lab">Nữ</label> <span class="error"></span>
+			
+			<br>
+
+			<input type="submit" name="submit"	value="Đăng ký" id="submit">
+		</fieldset>
+		<a href="register-form.html">Quay lại</a>
+		
+
+	</form>
+
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="register-form.js"></script>
+</body>
+</html>

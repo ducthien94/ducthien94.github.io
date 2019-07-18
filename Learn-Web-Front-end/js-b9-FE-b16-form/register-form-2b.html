@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register Form 2b</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	
+	<form>
+		<fieldset>
+
+			<legend>ĐĂNG KÝ THÀNH VIÊN</legend>
+
+			<input type="text" name="username" id="name" placeholder="Họ tên">  <span class="error username-error"><i class="fas fa-check-circle"></i></span> 
+			<input type="text" name="email" id="email" placeholder="Email"> <span class="error email-error"><i class="fas fa-check-circle"></i></span> 
+			<input type="text" name="phone" id="phone" placeholder="Phone"> <span class="error phone-error"><i class="fas fa-check-circle"></i></span>
+			<input type="password" name="password" id="pass" placeholder="Mật khẩu"> <span class="error pass-error"><i class="fas fa-check-circle"></i></span>
+			 <input type="password" name="conf-password" id="conf-pass" placeholder="Xác nhận mật khẩu"> <span class="error conf-pass-error"><i class="fas fa-check-circle"></i></span> <br>
+			
+			<p>Ngày sinh : </p>
+				<input type="date" name="date" id="date"> <span class="error date-error"><i class="fas fa-check-circle"></i></span>
+
+			
+				<p>Giới tính :</p>
+				<input type="radio" name="gender" id="male" class="gender" value="male"><label for="male">Nam</label>
+				<input type="radio" name="gender" id="female" class="gender" value="female"><label for="female" id="lab">Nữ</label> <span class="error gender-error"><i class="fas fa-check-circle"></i></span> 
+			
+
+				<br>
+
+				<input type="submit" name="submit"	value="Đăng ký" id="submit">
+			</fieldset>
+			<a href="register-form-2b.html">Quay lại</a>
+
+
+		</form>
+
+		<script src="js/jquery-3.4.1.js"></script>
+		<script src="register-form-2.js"></script>
+
+</body>
+</html>

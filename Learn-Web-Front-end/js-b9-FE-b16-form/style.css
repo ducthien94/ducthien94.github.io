@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1000px;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	margin: auto;
+	background-image: url('https://png.pngtree.com/thumb_back/fw800/photos/md/2017-10-30/white_work_table_with_notes__smartphone_and_laptop.jpg');
+	background-size: cover;	
+}
+
+form {
+	margin: 20px auto 0 auto;
+	padding: 15px;
+	width: 580px;
+}
+
+
+legend {
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+}
+.error {
+	color: red;
+	font-style: italic;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+#name, #email, #phone, #pass, #conf-pass {
+	padding: 5px;
+	margin: 15px 0 0 20px;
+	height: 40px;
+	width: 300px;
+	font-size: 18px;
+}
+
+ p, #date, #male, #female {	
+ 	margin: 15px 0 0 20px;
+}
+
+#date {
+	font-family: sans-serif;
+}
+
+
+
+#male, #female {
+	margin-top: 15px;
+}
+#female {
+	margin-left: 15px;
+}
+
+
+#submit {
+	height: 40px;
+	width: 150px;	
+	font-size: 18px;
+	margin: 15px 20px;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+
+}

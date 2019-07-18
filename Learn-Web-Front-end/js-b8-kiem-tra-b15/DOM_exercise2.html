@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM_exercise 2</title>
+	<style>
+		.list-item {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1>About Me</h1>
+
+	<ul>
+
+		<li>Nickname: <span id="nickname"></span>
+		<li>Favorites:  <span id="favorites"></span>
+		<li>Hometown: <span id="hometown"></span>
+
+	</ul>
+<script src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+		
+	//Thay đổi font chữ của body
+		
+		function changeFontFamily() {
+			document.body.style.fontFamily = "Arial, sans-serif";
+		}
+
+		changeFontFamily();
+
+		//Viết bằng jQuery
+
+		//$("body").css("font-family", "Arial, sans-serif");
+
+	//Thay đổi thông tin cá nhân
+
+		function changeInfo() {
+
+			let nickname = document.getElementById('nickname').textContent = "Duc Thien";
+
+			let favorites = document.getElementById('favorites').textContent = "Bóng đá, nghe nhạc...";
+
+			let hometown = document.getElementById('hometown').textContent = "Thị trấn Phúc Thọ, Huyện Phúc Thọ, TP Hà Nội";
+
+		}
+		changeInfo();
+
+		//Viết bằng jQuery
+		//$("#nickname").text("Duc Thien");
+		//$("#favorites").text("Bóng đá, nghe nhạc...");
+		//$("#hometown").text("Thị trấn Phúc Thọ, Huyện Phúc Thọ, TP Hà Nội");
+
+
+	// Lặp lại qua từng li và thêm class listitem. Sử dụng class vừa thêm để đổi màu của các list item thành màu đỏ (red)
+
+		function changeColor() {
+
+			let li_list = document.getElementsByTagName('li');
+			
+			for (let i = 0; i < li_list.length; i++ ) {
+				li_list[i].classList.add("list-item");
+			}
+
+		// 	let list_item = document.getElementsByClassName("list-item");
+
+		// 	for (let j = 0; j < list_item.length; j++) {
+		// 		list_item[j].style.color = "red";
+		// 	}
+
+		// }
+
+		changeColor();
+
+		//Viết bằng jQuery
+
+		$("li").addClass("list-item")
+
+	//Tạo một phần tử img mới và đặt thuộc tính src của nó thành avatar của bạn. Đưa ảnh lên đầu trang web.
+	
+		//Viết bằng jQuery
+		$("body").prepend(`<img src = "...">`)
+
+	</script>
+
+</body>
+</html>
