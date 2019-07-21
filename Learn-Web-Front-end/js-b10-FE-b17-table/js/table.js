@@ -4,8 +4,8 @@ jQuery(document).ready(function($) {
 $("#search").focus(function() {
 
 	$("#search").css({
-		border: '2px solid #0099ff',
-		boxShadow: '0px 0px 10px 0px #0099ff'
+		border: '2px solid blue',// #0099ff
+		boxShadow: '0px 0px 20px 0px #f2f2f2'
 	});
 
 })

@@ -13,15 +13,30 @@ body {
 	background-size: cover;
 }
 
+#logo {
+	position: relative;
+	background-color: #3c78e8;
+	height: 100px;
+}
+
+#logo img {
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+}
 
 #box-search {
-	position: relative;
+	position: absolute;
+	margin-bottom: 20px;
+	top: 0;
+	right: 0;
+	margin-right: 20px;
 }
 
 #box-search i {
 	position: absolute;
-	left: 405px;
-    top: 14px;
+	left: 7px;
+    top: 44px;
     color: #aaa;
 }
 
@@ -34,7 +49,7 @@ body {
 	margin: 30px auto;
 	padding: 20px 20px 20px 25px;
 	font-size: 18px;
-	border: 2px solid #aaa;
+	border: 2px solid #f2f2f2;
 }
 /*#search:hover {
 	width: 300px;
@@ -48,7 +63,7 @@ table {
 caption {
 	margin-bottom: 20px;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 1.5em;
 }
 
 th,  td {
