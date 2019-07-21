@@ -109,7 +109,6 @@ tr:nth-child(odd) {
 tr:first-child {
 	background-color:  #0066ff;
 	color: white;
-	font-size: 18px;
 }
 
 tr:nth-child(even) {
