@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1000px;
+	margin: auto;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-image: url('https://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/blue-wallpaper-22.jpg');
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	color: orangered;
+	position: relative;
+}
+
+#btn {
+	float: right;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 18px;
+	position: absolute;
+    right: 50px;
+    top: 3px;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	width: 600px;
+}
+
+th, td {
+	padding: 10px;
+	width: 20%;
+	height: auto;
+}
+
+th {
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+	letter-spacing: 1px
+}
+
+th:last-child, tr td:last-child {
+	border-right: none;
+}
+
+td {
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+th:first-child  { 
+	border-top-left-radius: 10px;
+}
+
+th:first-child, tr td:first-child, th:nth-child(4), tr td:nth-child(4) {
+	width: 10%;
+	text-align: center;
+}
+
+th:last-child {
+	border-top-right-radius: 10px;
+}
+
+tr:nth-child(odd) {
+	background-color:  #f2f2f2 ;
+}
+
+tr:first-child {
+	background-color:  #0066ff;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #d7d7d1;
+}
+
+
+tr:hover {
+  background-color: #99c2ff;
+}
+
+tr:first-child:hover {
+	background-color:  #0066ff;
+	color: white;
+}
+
+
+tr td:nth-child(2), tr td:nth-child(3) {
+	text-align: center;
+}
