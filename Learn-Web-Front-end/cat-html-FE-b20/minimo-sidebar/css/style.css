@@ -195,4 +195,10 @@ main.container .row .sidebar section:last-child img {
 		padding-top: 50px;
 		padding-left: 30px;
 	}
-}
+	main.container .row .content section:nth-child(3) .share {
+	margin-top: 10px;
+	}
+	main.container .content {
+		margin-bottom: 50px;
+	}
+}	
