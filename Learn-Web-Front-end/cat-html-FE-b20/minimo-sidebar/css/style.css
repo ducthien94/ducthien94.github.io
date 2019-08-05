@@ -1,0 +1,198 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 70px;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-family: Inconsolata;
+	font-size: 30px;
+	letter-spacing: 0.2em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-family: Playfair Display;
+	font-size: 14px;
+	color: #626262;
+	padding:10px 50px;
+}
+
+.container #banner img {
+	width: 100%;
+}
+
+.navbar-light .navbar-nav a:last-child {
+	padding-right: 0;
+}
+
+main.container {
+	padding-top: 100px;
+	padding-left: 80px;
+}
+main.container .row .content {
+	padding-right: 35px;
+}
+
+main.container .row .content section:first-child h5 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-bottom: 17px;
+}
+
+main.container .row .content section:first-child h3 {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  padding-bottom: 22px;
+}
+
+main.container .row .content section:first-child p,
+main.container .row .content section:nth-child(3) p:nth-child(2) {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+ /* padding-bottom: 50px;*/
+}
+
+main.container .row .content section:nth-child(2) img {
+	margin-top: 50px;
+	width: 100%;
+}
+
+main.container .row .content section:nth-child(3) {
+	margin-top: 50px;
+}
+
+main.container .row .content section:nth-child(3) .ff-myriad-pro {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+	padding: 0 20px 14px 20px;	
+}
+
+main.container .row .content section:nth-child(3) span.ff-myriad-pro {
+	padding: 0;
+}
+
+main.container .row .content section:nth-child(3) .share {
+	margin-top: 80px;
+}
+
+main.container .row .content section:nth-child(3) .share span {
+  font-size: 13px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.846;
+}
+
+
+main.container .row .content section:nth-child(3) .share a {
+	padding-left: 20px;
+}
+
+main.container .row .sidebar section:first-child {
+	margin-bottom: 70px;
+}
+
+main.container .row .sidebar section:first-child > img {
+	width: 100%;
+}
+
+main.container .row .sidebar section:first-child h3 {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 0.833;
+  padding: 25px 0 20px 0;
+}
+
+main.container .row .sidebar section:first-child p {
+  font-size: 12px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.667; 
+}
+
+main.container .row .sidebar section:first-child div img {
+	padding-right: 15px;
+} 
+
+main.container .row .sidebar section:nth-child(2) h5 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+
+main.container .row .sidebar section:nth-child(2) div img {
+	padding-right: 20px;
+}
+
+main.container .row .sidebar section:nth-child(2) div span {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+main.container .row .sidebar section:nth-child(2) div p {
+  font-size: 12px;
+  font-family: "Ubuntu"; 
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 15px 0 0 22px;
+}
+
+main.container .row .sidebar section:last-child {
+	margin-top: 50px;
+}
+
+main.container .row .sidebar section:last-child img {
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1090px;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		margin-top: 40px;
+	}
+	.container {
+		max-width: 960px;
+	}
+} 
+
+@media (max-width: 768px) {
+	body {
+		margin-top: 20px;
+	}
+	.container {
+		max-width: 720px;
+	}
+	main.container {
+		padding-top: 50px;
+		padding-left: 30px;
+	}
+}

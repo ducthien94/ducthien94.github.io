@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 70px;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-family: Inconsolata;
+	font-size: 30px;
+	letter-spacing
+}
+
+.navbar-light .navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-family: Playfair Display;
+	font-size: 14px;
+	color: #626262;
+	padding:10px 50px;
+}
+
+.container #banner img {
+	width: 100%;
+}
+
+.navbar-light .navbar-nav a:last-child {
+	padding-right: 0;
+}
+
+main .container {
+	padding: 0 95px;
+}
+
+main .container .row div:first-child, main .container .row div:nth-child(3) {
+	padding-right: 30px;
+}
+
+main .container .row div:nth-child(2), main .container .row div:last-child {
+	padding-left: 30px;
+}
+
+main .container h5 {
+	font-size: 14px;
+	font-family: "Ubuntu";
+	color: rgb(180, 173, 158);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+main .container h3 {
+	font-size: 30px;
+	font-family: "Playfair Display";
+	color: rgb(98, 98, 98);
+	line-height: 1.2;
+}
+
+main .container p {
+	font-size: 14px;
+	font-family: "Playfair Display";
+	color: rgb(98, 98, 98);
+	line-height: 1.714;
+}
+
+main .container > h5:first-child {
+	padding-top: 100px;
+	padding-bottom: 25px;
+}
+
+main .container > h3 {
+	padding-bottom: 35px;
+}
+
+
+main .container > p {
+	padding-bottom: 50px;
+}
+
+main .container .row {
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+main .container .row .card h5 {
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+main .container .row .card a:hover {
+	text-decoration: none;
+}
+
+main .container-fluid {
+	width: 100%;
+	height: 280px;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding-right: 100px;
+}
+
+main .container-fluid h3 {
+	padding-top: 60px;
+	padding-bottom: 70px;
+	font-size: 30px;
+	font-family: "Playfair Display";
+	color: rgb(51, 51, 51);
+	line-height: 1.2;
+}
+
+main .container-fluid input {
+	border: none;
+	background-color: #f0f0f0;
+	width: 350px;
+	font-size: 14px;
+	font-family: "Playfair Display";
+	color: rgb(98, 98, 98);
+	line-height: 1.714;
+	padding-bottom: 10px;
+	outline: none;
+}
+
+main .container-fluid div {
+	width: 380px;
+	border-bottom: 1px solid #000000;
+	margin: auto;
+}
+
+main #load-more {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  width: 165px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid #626262;
+  margin: auto;
+}
+
+main section:last-child {
+	padding-bottom: 300px;
+}
+
+footer {
+	height: 100px;
+	background-color: #f0f0f0;
+}
+
+.left, .right {
+	line-height: 100px;
+}
+
+.left a, .right span {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+}
+
+.left a {
+	padding: 0 7.5px;
+}
+
+.left a:hover {
+	text-decoration: none;
+}
+
+.right a {
+	margin-left: 20px;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1090px;
+    margin: auto;
+}
+
+
+@media (min-width: 1024px) {
+	body {
+		margin-top: 40px;
+	}
+	.container {
+		max-width: 960px;
+		margin: auto;
+	}
+	main .container {
+		padding: 0 8%;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		margin-top: 30px;
+	}
+	.container {
+		max-width: 720px;
+		margin: auto;
+	}
+	main .container {
+		padding: 0 8%;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		margin-top: 30px;
+	}
+	.container {
+		max-width: 540px;
+		margin: auto;
+	}
+	main .container {
+		padding: 0 8%;
+	}
+
+	main .container .row div:first-child, main .container .row div:nth-child(3) {
+		padding-right: 0;
+		width: 100%;
+	}
+
+	main .container .row div:nth-child(2), main .container .row div:last-child {
+		padding-left: 0;
+		width: 100%;
+	}
+
+	main .container-fluid h3 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+}
