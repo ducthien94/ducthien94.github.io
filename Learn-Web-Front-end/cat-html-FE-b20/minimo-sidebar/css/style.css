@@ -175,7 +175,7 @@ main.container .row .sidebar section:last-child img {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 	body {
 		margin-top: 40px;
 	}
