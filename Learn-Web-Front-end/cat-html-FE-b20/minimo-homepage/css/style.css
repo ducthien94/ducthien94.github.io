@@ -12,7 +12,7 @@ body {
 	text-transform: uppercase;
 	font-family: Inconsolata;
 	font-size: 30px;
-	letter-spacing
+	letter-spacing: 0.2em;
 }
 
 .navbar-light .navbar-nav .nav-link {
