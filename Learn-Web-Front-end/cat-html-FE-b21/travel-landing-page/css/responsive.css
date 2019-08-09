@@ -1,0 +1,432 @@
+@media (min-width: 1680px) {
+	.navbar {
+		padding: 55px 300px 8px 300px
+	}
+	#text-header,#text-support,.search {
+		padding-left: 300px;
+	}
+	#benefits-section {
+		padding: 0 200px;
+	}
+	#content-benefits-section, #get-inspired-section, #prefecture-and-neighborhood, .top-places {
+		padding: 0 100px;
+	}
+	.row .card-1, .row .card-2 {
+		padding-right: 100px;
+	}
+	.header-top-places hr {
+		width: 17%;
+	}
+	.footer img {
+		margin: 115px 0 185px 300px;
+	}
+	.footer .info {
+		margin-right: 300px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.navbar {
+		padding: 55px 100px 8px 100px;
+	}
+	#text-header,#text-support,.search {
+		padding-left: 100px;
+	}
+	#benefits-section {
+		padding: 0 50px;
+	}
+	#content-benefits-section, #get-inspired-section, #prefecture-and-neighborhood, .top-places {
+		padding: 0 50px;
+	}
+	#content-benefits-section > p {
+		padding: 70px 0 80px 0;
+	}
+	.row .card-1, .row .card-2 {
+		padding-right: 20px;
+	}
+	#get-inspired-section {
+		margin-top: -150px;
+	}
+	.header-get-inspired hr {
+		width: 23%;
+	}
+	#content-prefecture-and-neighborhood .text-title {
+		margin-top: 5px;
+		margin-bottom: 40px;
+	}
+	#content-prefecture-and-neighborhood .text-des-neighborhood {
+		margin-bottom: 20px;
+	}
+	.top-places {
+		margin: 80px 0;
+	}
+	.header-top-places hr {
+		width: 22%;
+	}
+	.top-places .row .card .card-title {
+		top: 285px;
+	}
+	.top-places .row .card .card-title .like-comment {
+		right: -210px;
+	}
+	.footer img {
+		margin-left: 100px;
+	}
+	.footer .info {
+		margin-right: 100px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header-get-inspired hr {
+		width: 28%;
+	}
+	#get-inspired-section {
+		margin-top: -180px;
+	}
+	#prefecture-and-neighborhood {
+		margin-top: 70px;
+	}
+	.prefecture {
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+	.neighborhood {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.prefecture .prefecture-image, .neighborhood .neighborhood-des {
+		padding-right: 20px;
+	}
+	.prefecture .prefecture-des, .neighborhood .neighborhood-image {
+		padding-left: 20px;
+	}
+	#content-prefecture-and-neighborhood .text-title-prefecture {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 24px;
+	}
+	#content-prefecture-and-neighborhood .text-des-prefecture {
+		margin-bottom: 20px;
+	}
+	#content-prefecture-and-neighborhood .text-title-neighborhood {
+		margin-bottom: 20px;
+	}
+	#content-prefecture-and-neighborhood .text-des-neighborhood {
+		margin-bottom: 20px;
+	}
+	.top-places {
+		margin: 50px 0;
+	}
+	.header-top-places hr {
+		width: 27%;
+	}
+	.row .nagoya, .row .saitama {
+		padding: 0 24px 0 15px;
+	}
+
+	.row .osaka, .row .shibuya {
+		padding: 0 15px 0 24px;
+	}
+
+	.row .niigata, .row .ueno {
+		padding: 0 19px;
+	}
+	.top-places .row .card .card-title {
+		top: 243px;
+	}
+	.top-places .row .card .card-title .like-comment {
+		right: -160px;
+	}
+	.footer img {
+		margin-left: 100px;
+	}
+	.footer .info {
+		margin-right: 100px;
+	}
+	.footer .info ul {
+		margin-left: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		min-height: 600px;
+	}
+	.navbar {
+		padding: 30px 50px 8px 50px;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding-right: 0;
+		text-align: right;
+	}
+	#text-header {
+		padding-left: 50px;
+		padding-top: 100px;
+		font-size: 40px;
+	}
+	#text-support, .search {
+		padding-left: 50px;
+	}
+	#btn-search {
+		margin-top: 20px;
+	}
+	#benefits-section  {
+		padding: 0 30px;
+		transform: translateY(-130px);
+	}
+	#content-benefits-section {
+		padding: 20px;
+	}
+	#content-benefits-section > p {
+		padding: 30px 0;
+		font-size: 30px;
+	}
+	.row .card {
+		margin-bottom: 20px;
+	}
+	#get-inspired-section {
+		padding: 0 30px;
+		margin-top: -100px;
+	}
+	.header-get-inspired hr {
+		width: 36%;
+	}
+	#prefecture-and-neighborhood {
+		padding: 0 30px;
+	}
+	.prefecture {
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.neighborhood {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	.prefecture .prefecture-image, .neighborhood .neighborhood-des {
+		padding-right: 10px;
+	}
+	.prefecture .prefecture-des, .neighborhood .neighborhood-image {
+		padding-left: 10px;
+	}
+	#content-prefecture-and-neighborhood .text-title {
+		font-size: 20px;
+	}
+	#content-prefecture-and-neighborhood .text-des {
+		font-size: 12px;
+	}
+	#content-prefecture-and-neighborhood .text-title-neighborhood, #content-prefecture-and-neighborhood .text-des-neighborhood {
+		margin: 0;
+	}
+	.top-places {
+		padding: 0 30px;
+		margin: 50px 0 20px;
+	}
+	.header-top-places hr {
+		width: 35%;
+	}
+	.row .nagoya, .row .saitama {
+		padding: 0 11px 0 15px;
+	}
+
+	.row .osaka, .row .shibuya {
+		padding: 0 15px 0 11px;
+	}
+
+	.row .niigata, .row .ueno {
+		padding: 0 13px;
+	}
+	.top-places .row .card .card-title {
+		top: 187px;
+	}
+	.top-places .row .card .card-title .name {
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.top-places .row .card .card-title .like-comment {
+		right: -152px;
+		font-size: 12px;
+		top: 2px;
+	}
+	.footer img {
+		margin-left: 50px;
+	}
+	.footer .info {
+		margin-right: 50px;
+	}
+	.footer .info ul {
+		margin-left: 70px;
+	}
+}
+
+@media (max-width: 568px) {
+	.header {
+		min-height: 500px;
+	}
+	#benefits-section {
+		display: none;
+	}
+	.navbar {
+		padding: 15px 25px 8px 15px;
+	} 
+	.navbar .navbar-nav .nav-item {
+		padding-top: 0;
+	}
+	#text-header {
+		padding: 80px 0 15px 15px;
+		font-size: 30px;
+		line-height: 1;
+	}
+	#text-support, .search {
+		padding-left: 15px;
+		padding-top: 0;
+	}
+	#search-1 input, #search-2 input {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	#btn-search button {
+		margin-top: 25px;
+		margin-left: -357px;
+		width: 90px;
+		height: 30px;
+	}
+	#get-inspired-section {
+		margin-top: -40px;
+	}
+	.header-get-inspired {
+		margin-top: 30px;
+	}
+	.header-get-inspired span {
+		font-size: 25px;
+		line-height: 55px;
+	}
+	.header-get-inspired hr {
+		width: 36%;
+		margin: 0;
+	}
+	.header-get-inspired img {
+		margin-left: 10px;
+	}
+	.row .col-md-6, .row .col-md-4 {
+		padding: 10px 0;
+	}
+	#prefecture-and-neighborhood .prefecture-image, #prefecture-and-neighborhood .neighborhood-image {
+		display: none;
+	}
+	#prefecture-and-neighborhood {
+		margin: 0 30px;
+		padding: 15px;
+	}
+	.top-places {
+		margin-top: 70px;
+	}
+	.top-places .row .card img {
+		padding: 0 15px;
+	}
+	.top-places .row .card .card-title {
+		top: 475px;
+	}
+	.top-places .row .card .card-title .name {
+		font-size: 20px;
+		padding-left: 35px;
+	}
+	.top-places .row .card .card-title .like-comment {
+		right: -380px;
+		font-size: 20px;
+		top: 0px;
+	}
+	.footer img {
+		margin-left: 15px;
+	}
+	.footer .info {
+		margin-right: 15px;
+	}
+	.footer .info ul {
+		margin-left: 30px;
+	}
+	.footer .info ul span {
+		font-size: 14px;
+	}
+	.footer .info ul li {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		min-height: 600px;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding: 0;
+		margin-bottom: 7px;
+	}
+	#text-header {
+		padding: 80px 15px 20px 15px;
+		font-size: 40px;
+		margin-right: 70px;
+		line-height: 1;
+	}
+	.search {
+		margin: 10px 15px 0 0;
+	}
+	#btn-search button {
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	#get-inspired-section {
+		padding: 0 15px; 
+	}
+	.header-get-inspired span {
+		font-size: 20px;
+	}
+	.header-get-inspired a {
+		font-size: 14px;
+		padding-right: 75px;
+	}
+	.header-get-inspired hr {
+		display: none;
+	}
+	#prefecture-and-neighborhood {
+		margin: 0px 15px;
+	}
+	.top-places {
+		padding: 0 15px;
+	}
+	.top-places .header-top-places {
+		margin-bottom: 0;
+	}
+	.top-places .header-top-places span {
+		font-size: 25px;
+	}
+	.top-places .header-top-places hr {
+		width: 60%;
+	}
+	.top-places .row .card {
+		margin-bottom: 20px;
+	}
+	.top-places .row .card .card-img-top {
+		margin-bottom: 10px;
+	}
+	.top-places .row .card .card-body .card-text {
+		margin-bottom: 10px;
+	}
+	.top-places .row .card .card-title {
+		top: 275px;
+	}
+	.top-places .row .card .card-title .name {
+		font-size: 20px;
+		padding-left: 35px;
+	}
+	.top-places .row .card .card-title .like-comment {
+		right: -180px;
+		font-size: 16px;
+	}
+	.footer img {
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+	.footer .info {
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,369 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Lato;
+	font-size: 16px;
+}
+
+.header {
+	background-image: url('../images/banner.png');
+	min-height: 962px;
+	background-size: cover;
+}
+
+.navbar {
+	z-index: 4;
+	position: absolute;
+	width: 100%;
+	padding: 55px 167px 8px 191px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	padding: 8px 41px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	text-shadow: 0 0 10px white;
+	color: white;
+}
+
+#text-header {
+	color: #FFFFFF;
+	padding-left: 191px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 60px;
+	padding-top: 260px;
+}
+
+#text-support {
+	padding-left: 191px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-top: 25px;
+}
+
+.search {
+	padding-left: 191px;
+	margin-top: 55px;
+}
+
+#search-1, #search-2 {
+	margin-right: 60px;
+}
+
+#search-1 img, #search-2 img {
+	margin-right: 20px;
+}
+
+#search-1 input {
+	width: 216px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background: transparent;
+	border: none;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	outline: none;
+}
+
+#search-2 input {
+	width: 225px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background: transparent;
+	border: none;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	outline: none;
+}
+::placeholder {
+	color: #FFFFFF;
+}
+
+#btn-search button {
+	width: 171px;
+	height: 50px;
+	text-transform: uppercase;
+	background-color: #1B7DFF;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	letter-spacing: 1px;
+}
+
+.search .line-header {
+	width: 297px;
+	border: 1px solid #FFFFFF;
+}
+
+#benefits-section {
+	padding: 0 88px;
+	transform: translateY(-280px);
+}
+
+#content-benefits-section {
+	padding: 0 100px;
+	background: #FFFFFF;
+	width: 100%;
+	box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+#content-benefits-section > p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 42px;
+	color: #102746;
+	padding: 100px 0 120px 0;
+}
+
+.row .card {
+	margin-bottom: 75px;
+}
+
+.row .card-1, .row .card-2 {
+	padding-right: 40px;
+}
+
+.row .card > img {
+	margin-bottom: 40px;
+}
+
+.row .card .card-body span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.row .card .card-body p {
+	margin: 30px 0 45px 0;
+}
+
+.row .card .card-body a {
+	text-transform: uppercase;
+}
+
+.row .card .card-body a:hover {
+	text-decoration: none;
+}
+
+.row .card .card-body a img {
+	margin-left: 30px;
+}
+
+
+#get-inspired-section {
+	padding: 0 88px;
+	margin-top: -100px;
+}
+
+.header-get-inspired span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 42px;
+	color: #102746;
+}
+
+.header-get-inspired a {
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 55px;
+	text-align: right;
+	color: #006DFE;
+}
+
+.header-get-inspired a:hover {
+	text-decoration: none;
+}
+
+.header-get-inspired img {
+	margin-left: 25px;
+}
+
+.row .col-md-6, .row .col-md-4  {
+	padding: 5px;
+}
+
+#prefecture-and-neighborhood {
+	padding: 0 88px;
+	margin-top: 100px;
+}
+
+.prefecture {
+	margin-bottom: 35px;
+	margin-right: 47px;
+}
+
+.neighborhood {
+	margin-top: 35px;
+	margin-left: 47px;
+}
+
+.prefecture .prefecture-image, .neighborhood .neighborhood-des {
+	padding-right: 55px;
+	padding-left: 15px;
+}
+
+.prefecture .prefecture-des, .neighborhood .neighborhood-image {
+	padding-left: 55px;
+	padding-right: 15px;
+}
+
+.prefecture .prefecture-des img, .neighborhood .neighborhood-des img {
+	margin-left: 20px;
+}
+
+#content-prefecture-and-neighborhood .text-title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 40px;
+	color: #102746;
+	margin-top: 25px;
+	margin-bottom: 70px;
+}
+
+#content-prefecture-and-neighborhood .text-des {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #102746;
+	margin-bottom: 40px;
+}
+
+.top-places {
+	padding: 0 88px;
+	margin: 140px 0;
+}
+
+.top-places .header-top-places {
+	margin-bottom: 50px;
+}
+
+.top-places .header-top-places span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 42px;
+	color: #102746;
+}
+
+.top-places .header-top-places hr {
+	margin-top: 5px;
+}
+
+.row .nagoya, .row .saitama {
+	padding: 0 33px 0 15px;
+}
+
+.row .osaka, .row .shibuya {
+	padding: 0 15px 0 33px;
+}
+
+.row .niigata, .row .ueno {
+	padding: 0 25px;
+}
+
+
+.top-places .row .places {
+	position: relative;
+}
+
+.top-places .row .card {
+	margin-bottom: 60px;
+}
+
+.top-places .row .card .card-title {
+	position: absolute;
+	color: white;
+	top : 335px;
+}
+
+.top-places .row .card .card-title .name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-left: 25px;
+}
+
+.top-places .row .card .card-title .like-comment {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	position: absolute;
+	right: -260px;
+	top: 0;
+}
+
+.top-places .row .card .card-title .like {
+	margin-right: 15px;
+}
+
+.top-places .row .card .card-body {
+	padding-top: 5px;
+}
+
+.footer {
+	min-height: 370px;
+	background: #021D28;
+	color: #FFFFFF;
+}
+
+.footer img {
+	margin: 115px 0 185px 191px;
+}
+
+.footer .info {
+	margin-top: 115px;
+	margin-right: 165px;
+}
+
+.footer .info ul {
+	margin-left: 140px;
+}
+
+.footer .info ul li {
+	list-style-type: none;
+	padding: 2px 0; 
+}
+
+.footer .info ul span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+.footer .info ul li {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
