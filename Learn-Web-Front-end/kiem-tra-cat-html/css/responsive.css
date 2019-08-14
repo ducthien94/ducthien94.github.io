@@ -1,5 +1,5 @@
 @media (min-width: 1441px) {
-	.container {
+	.container-fluid {
 		max-width: 1379px;
 	}
 }
