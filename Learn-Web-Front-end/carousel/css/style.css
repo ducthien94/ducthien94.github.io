@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 640px;
+	margin: 50px auto;
+	overflow: auto;
+}
+
+.carousel__items {
+	position: relative;
+	width: 640px;
+	height: 425px;
+	overflow: hidden;
+}
+
+.carousel__items img {
+	display: none;
+	width: 640px;
+	height: 425px;
+}
+
+.carousel__items img.active {
+	display: inline-block;
+}
+
+.btn-control {
+	text-align: center;
+	margin-top: 20px;
+}
+
+button {
+	padding: 5px 10px;
+}
