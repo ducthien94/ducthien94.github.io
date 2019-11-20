@@ -6,8 +6,9 @@
 
 .container {
 	width: 640px;
-	margin: 50px auto;
+	margin: 50px auto 10px;
 	overflow: auto;
+	position: relative;
 }
 
 .carousel__items {
@@ -27,11 +28,43 @@
 	display: inline-block;
 }
 
-.btn-control {
+.prev, .next {
+	position: absolute;
+	width: 30px;
+	height: 40px;
+	background-color: #00000066;
+	top: calc((100% - 40px) / 2);
+	color: #ffffff36;
 	text-align: center;
-	margin-top: 20px;
+	line-height: 40px; 
+	cursor: pointer;
+	font-size: 25px;
+	transition: 0.5s;
 }
 
-button {
-	padding: 5px 10px;
+.next {
+	right: 0;
+}
+
+.prev:hover, .next:hover {
+	background-color: #00000099;
+	color: #ffffff;
+}
+
+.dots {
+	text-align: center;
+}
+
+.dots span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #c4c4c4;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.currentDot {
+	background-color: #717171;
 }
